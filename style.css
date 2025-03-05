@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+th:hover {
+    background-color: #0056b3;
+}
+
+table {
+    background: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
